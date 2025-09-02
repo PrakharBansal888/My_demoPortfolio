@@ -273,7 +273,7 @@ a:hover{
 
 footer {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 2px;
     margin-bottom: 32px;
 }
 
@@ -306,4 +306,44 @@ footer {
     font-size: 1.1rem;
     margin-top: 18px;
     font-family: "Poppins", sans-serif;
+}
+
+#get-touch {
+    margin-top: 20rem;
+    margin-bottom: 50px; /* reduced spacing between get-touch and footer */
+    text-align: center;
+}
+
+.get-touch-container > p {
+    color: darkgray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.get-touch-container > h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 12px 40px;
+    justify-content: center;
+    gap: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact-item img {
+    display: block;
 }
